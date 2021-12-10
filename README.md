@@ -32,7 +32,7 @@ Contributors names and contact info
 Izzy Hurley 
 [@IzzyHurley](imhurl23@colby.edu)
 Luis Baez
-[@LuisBaez13](lmbaez23@colby.edu)
+[@LuisBaez13](luisbaez13)
 
 
 
