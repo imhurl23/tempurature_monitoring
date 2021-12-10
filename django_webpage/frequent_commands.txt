@@ -1,0 +1,34 @@
+Luis Baez 
+Commands that were frequently used/helpful to have saved while working on the lightsail server
+
+Instructions on how to run django app on our lighsail server
+    SSH into lightsail
+    Generic command: ssh -i /location/of/keys/key.pem bitnami@[CURRENT IP]
+
+    Switch to this directory on lightsail server:
+    /home/bitnami/stack/projects/Yogurt
+
+    In settings.py make sure that ALLOWED_HOSTS = ['*']
+    This is not ideal for security but makes running this simple site much easier
+
+    Run django server on 0.0.0.0 at a designated port (I used 8000 for testing):
+    python3 manage.py runserver 0.0.0.0:[PORT]
+
+    After that command, you can access the website on any device at
+    [CURRENT IP]:[PORT]/temperature
+
+
+Transfering files to the server
+    Generic: scp -i /path/key.pem /path/file.txt bitnami@[SERVER IP]:/path/destination
+
+
+Retrieve files from server:
+    scp -i path/to/key.pem bitnami@[SERVER IP]:~/path/to/retrieve/file.zip /home/directory
+
+
+Backing up versions:
+    Zip the folder:
+        zip -r out.zip folder
+        zip -r yogurt_nov_30.zip Yogurt
+    retrieve from server and save on local machine
+        scp bitnami@[SERVER IP]:~/path/to/file.zip /home/directory
