@@ -10,8 +10,8 @@ def sendAlert(recipient: str, currentTemp: int, desiredTemp: int):
     #set the smtp server and port to be used, use secure connection (required)
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    #I left password here as this account is only for this project
-    server.login('colby.ferment.club@gmail.com', 'colbyferment23')
+    #I removed the password for the project submission
+    server.login('colby.ferment.club@gmail.com', 'PASSWORD')
 
     #create the message object, set origin, contents, subject and destination, then send
     msg = EmailMessage()
