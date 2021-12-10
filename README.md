@@ -20,7 +20,7 @@ Once, this is complete you can simply view the webpage: http://54.196.10.228:800
 
 #### To replicate our work: 
 * The RaspberryPiCode is to be downloaded onto the home folder of a raspberry pi device with configured tempurature sensors. See (https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/#:~:text=Connect%20pin%201%20to%20the,your%20finger%20against%20the%20sensor.) for tempurature sensor setup. Place all these code files in the home folder of the pi. 
-* If you would like to create a similar webpage: the django_webpage directory contains all nessacary code and can be deployed on different severs. We used lightsial.
+* If you would like to create a similar webpage: the django_webpage directory contains all necessary code and can be deployed on different severs. We used an AWS lightsial server.
 
 
 
