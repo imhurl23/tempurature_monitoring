@@ -1,13 +1,13 @@
 # Continuous Remote Fermentation Monitoring System 
 
-This system is a remote tempurature monitoring setup. By running scripst on a raspberry pi this project creates a remote access point in the form of a web application to view updating tesmpurature data. 
+This system is a remote tempurature monitoring setup. By running scripts on a raspberry pi this project creates a remote access point in the form of a web application to view updating tesmpurature data. 
 ## Description
 
-This code base paired with a configured raspberry pi product and tempurature sensors can be used to ensure safe at home fermentation. 
+This code base paired with a configured raspberry pi product and tempurature sensors can be used to help ensure safe at home fermentation. 
 
 ## Getting Started
 For information on how to run the scripts on the raspberrry pi: https://docs.google.com/document/d/1xA-vdfHDePmcq0FVDPCigT55Rxa6r-Ud1ls8NACyue4/edit?usp=sharing
-Once, this is complete you can simply view the webpage: http://54.196.10.228:8000/ (Note: this may not be live at all points in time. If you are interested in running an experiment please coordinate with Luis and Izzy to get a hold of the prodcut and make sure the web app is ready to be run)
+Once, this is complete you can simply view the webpage: http://54.196.10.228:8000/ (Note: this may not be live at all points in time. If you are interested in running an experiment please coordinate with Luis and Izzy to get a hold of the sensors and make sure the web app is running)
 
 
 ### Dependencies
@@ -32,7 +32,7 @@ Contributors names and contact info
 Izzy Hurley 
 [@IzzyHurley](imhurl23@colby.edu)
 Luis Baez
-[@LuisBaez](lmbaez23@colby.edu)
+[@LuisBaez13](lmbaez23@colby.edu)
 
 
 
